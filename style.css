@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    text-align: center;
+    background-color: rgb(200, 186, 186);
+    padding: 10px;
+    font-size: 30px;
+}
+nav{
+    background-color: rgb(200, 186, 186);
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+    margin: 0 30px 0 0;
+}
+nav a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+.content{
+    text-align: center;
+    background-color: rgb(107, 59, 59);
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+.card img{
+    height: 40px;
+    width: 40px;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+.card:hover{
+    transform: scale(1.15);
+    background-color: navy;
+}
+.card{
+    background-color: bisque;
+    width: 30%;
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 5px 8px black;
+    transition: transform 0.3s ease-in-out;
+}
